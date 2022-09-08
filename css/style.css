@@ -2,10 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: white;
 }
 
 body {
   font-family: 'Fredoka', sans-serif;
+  
 }
 
 h1 {
@@ -19,31 +21,13 @@ h1 {
   background-color: rgba(255, 80, 70, 0.50);
   border: 1px solid black;
 }
-
-.conteiner {
-  max-width: 1200px;
-  height: 400px;
-  margin: 20px auto;
-  background-color: aqua;
-
-}
 .text {
   text-align: center;
+
 }
-
-.rows {
-  background-color: yellow;
-  height: 100px;
+.box {
   
-  
-}
-
-
-.cont-info {
-  height: 90px;
-  width: 300px;
-  background-color: black;
-  //dimensione delle immagini 
+  float: left;
 }
 
 
