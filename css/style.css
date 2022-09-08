@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   padding: 30px;
 }
+
 .debug{
 
   background-color: rgba(255, 80, 70, 0.50);
@@ -30,15 +31,20 @@ h1 {
   text-align: center;
 }
 
-.row1 {
+.rows {
   background-color: yellow;
   height: 100px;
+  
+  
 }
+
 
 .cont-info {
   height: 90px;
   width: 300px;
   background-color: black;
+  //dimensione delle immagini 
 }
+
 
 
