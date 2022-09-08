@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: white;
+  
 }
 
 body {
@@ -25,9 +26,23 @@ h1 {
   text-align: center;
 
 }
+
+.clearfix::after {
+  clear: both;
+  display: table;
+}
+
+.box img {
+
+   float: left;
+   height: 100%;
+   width: auto;
+}
 .box {
-  
+  width:calc(100% /(3));
   float: left;
+  height: 100px;
+
 }
 
 
